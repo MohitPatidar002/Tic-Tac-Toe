@@ -54,6 +54,18 @@
     display: flex;
 }
 
+.game-tie{
+    font-size: 22px;
+    transition:all 2s ease-in-out;
+    transform: scale(3);
+    display: none;
+    position: absolute;
+}
+
+.game-tie.active{
+    display: flex;
+}
+
 .box{
     position:relative;
     width:100%;
@@ -107,7 +119,7 @@
 
     .game-info{
         width: 75%;
-        /* padding: 0.5rem 1rem; */
+        padding: 0.5rem 1rem;
         text-align: center;
     }
 }
